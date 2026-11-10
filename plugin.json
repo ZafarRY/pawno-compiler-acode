@@ -1,0 +1,31 @@
+{
+  "id": "zafar.pawno.compiler",
+  "name": "Pawno Compiler",
+  "main": "main.js",
+  "version": "1.0.0",
+  "readme": "readme.md",
+  "changelogs": "changelogs.md",
+  "repository": "https://github.com/ZafarRY/pawno-compiler-acode",
+  "icon": "icon.png",
+  "files": [],
+  "minVersionCode": 290,
+  "license": "MIT",
+  "keywords": [
+    "pawn",
+    "pawno",
+    "samp",
+    "sa-mp",
+    "open.mp",
+    "pawncc",
+    "amx",
+    "compiler",
+    "acode"
+  ],
+  "price": 0,
+  "permissions": [],
+  "author": {
+    "name": "ZafarRY",
+    "email": "",
+    "github": "ZafarRY"
+  }
+}

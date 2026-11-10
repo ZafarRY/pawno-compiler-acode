@@ -1,0 +1,27 @@
+{
+  "name": "pawno-compile",
+  "version": "1.0.0",
+  "description": "Pawn (SA-MP / open.mp) compiler, syntax highlighting and autocomplete for Acode",
+  "main": "dist/main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZafarRY/pawno-compiler-acode.git"
+  },
+  "author": "ZafarRY",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "acode-plugin-types": "^1.12.9",
+    "html-tag-js": "^2.4.15"
+  },
+  "devDependencies": {
+    "esbuild": "^0.27.2",
+    "jszip": "^3.10.1",
+    "typescript": "^5.9.3"
+  },
+  "scripts": {
+    "dev": "node esbuild.config.mjs --serve",
+    "build": "tsc --noEmit && node esbuild.config.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "browserslist": "cover 100%,not android < 5"
+}
