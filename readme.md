@@ -22,13 +22,11 @@ Pawno Compiler turns Acode into a pocket Pawn IDE. Open a `.pwn` file, tap **▶
 
 It ships with its own `pawncc.wasm`, so it works **out of the box without Alpine or a terminal**. If you prefer a native compiler, an Alpine (proot) mode is built in as well.
 
-<!-- Add screenshots here
 <p align="center">
   <img src="screenshots/compile.png" width="260" />
   <img src="screenshots/error.png" width="260" />
   <img src="screenshots/autocomplete.png" width="260" />
 </p>
--->
 
 ## 🚀 Features
 
